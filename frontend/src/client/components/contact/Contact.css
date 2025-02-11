@@ -1,0 +1,7 @@
+.container-form-paper{
+    background: linear-gradient(45deg, lightskyblue 35%, rgb(241, 48, 241), rgb(243, 102, 220));
+}
+
+.container-form-paper:hover{
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+}

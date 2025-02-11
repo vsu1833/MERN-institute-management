@@ -1,0 +1,31 @@
+.container-hero{
+    background:url('https://img.freepik.com/free-vector/hand-drawn-back-school-background_23-2149056177.jpg?t=st=1727146412~exp=1727150012~hmac=d14f4c50a2351b41208256e92ed006210d4e0a29f66df2e11d51f5faf46de134&w=740');
+     /* background-size: 120% 120%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* animation: name 9s alternate ease-in-out infinite; */
+    /* color: rgb(85, 87, 88); */
+}
+
+.hero-text{
+    font-size: 4vw;
+    font-weight: 800;
+}
+@media only screen and (max-width: 600px) {
+   .hero-text{
+    font-size: 44px;
+   }
+  }
+
+@keyframes name{
+from{
+        background-position-x: left;
+     }
+ 
+    to{
+       background-position-x: right;
+    }
+
+   
+    
+}

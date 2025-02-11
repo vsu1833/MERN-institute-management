@@ -1,0 +1,6 @@
+.text-beautify{
+    background: linear-gradient(to right, lightskyblue, rgb(255, 93, 193) 35%,
+    rgb(79, 79, 253), rgb(84, 248, 199));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

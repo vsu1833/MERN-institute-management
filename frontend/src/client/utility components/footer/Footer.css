@@ -1,0 +1,25 @@
+.nav-link-footer{
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+    /* color: #eee2e2; */
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer-contact-item{
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 1.2px!important;
+}
+
+.copyright-footer{
+    font-size: 13px;
+    text-transform: capitalize;
+    /* color: #ece7e7; */
+    letter-spacing: 1.3px;
+    text-align: center;
+}

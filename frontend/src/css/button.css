@@ -1,0 +1,53 @@
+.button-beautify{
+    width: 120px;
+    max-height: 40px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    z-index: 2;
+    overflow: hidden;
+    outline: none;
+    border-radius: 17px;
+}
+
+
+.button-beautify::before{
+    content: '';
+    position: absolute;
+   top: 0;
+   left: 0;
+   width: 700%;
+   height: 100%;
+  
+   background-size: 50% 100%;
+   z-index: 0;
+   animation: button-beautify-anim 3s linear  infinite;
+}
+.button-beautify .button-box{
+    z-index: 2;
+}
+
+@keyframes button-beautify-anim {
+    to{
+        transform: translateX(-50%);
+    }
+    
+}
+
+.button-beautify-one::before{
+    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 51%, #00dbde 100%);
+}
+.button-beautify-danger::before{
+    background: linear-gradient(90deg, #f75397 0%, #ff0000 51%, #f71385 100%);
+}
+
+.button-beautify:hover{
+    
+    box-shadow: 0 0 30px lightblue,
+    0 -10px 20px -5px rgb(240, 124, 205),
+    0 10px 20px -5px rgb(95, 241, 229),
+    0 10px 20px -5px rgb(124, 151, 240),
+    0 -10px 20px -5px rgb(134, 240, 124)
+    ;
+}
