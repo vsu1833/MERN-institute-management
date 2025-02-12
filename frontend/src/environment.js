@@ -1,2 +1,2 @@
-   const baseUrl = 'http://localhost:5001/api';
+   const baseUrl = 'https://mern-institute-management.onrender.com/api';
    export {baseUrl}
