@@ -12,7 +12,7 @@ The **School Management System** is a secure, scalable web application designed 
 ---
 ## Demo Video
 
-Watch our demo video on YouTube to see the School Management System in action:
+Watch my demo video on YouTube to see the School Management System in action:
 
 [[Watch the video]](https://www.youtube.com/watch?v=QhekqdrBsCc)
 
